@@ -6,7 +6,7 @@ A lightweight library providing mobile friendly panning and zooming to any HTML 
 
 ## Demo
 
-https://stephanwagner.github.io/dom-pan-zoom/docs
+[https://stephanwagner.github.io/dom-pan-zoom](https://stephanwagner.github.io/dom-pan-zoom)
 
 ---
 
