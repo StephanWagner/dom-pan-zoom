@@ -1,7 +1,7 @@
 {
   "name": "dom-pan-zoom",
   "description": "A lightweight library providing mobile friendly panning and zooming to any HTML DOM element.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
