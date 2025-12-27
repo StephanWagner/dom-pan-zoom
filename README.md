@@ -6,20 +6,20 @@ A lightweight library providing mobile friendly panning and zooming to any HTML 
 
 ## Install
 
-### ES6
+### npm
 
 ```bash
-npm install dompanzoom --save
+npm install dom-pan-zoom --save
 ```
 
 ```javascript
-import domPanZoom from 'dompanzoom';
+import domPanZoom from 'dom-pan-zoom';
 ```
 
 ### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/dompanzoom@v0.0.5/dist/domPanZoom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dom-pan-zoom@v0.1.0/dist/dom-pan-zoom.umd.min.js"></script>
 ```
 
 ---

@@ -6,8 +6,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=672" />
 
-    <link href="../../assets/demo/styles.css?v=0.0.5a" rel="stylesheet" />
-    <script src="../../dist/domPanZoom.js?v=0.0.5a"></script>
+    <link href="./assets/styles.css?v=0.1.0" rel="stylesheet" />
+    <script src="../dist/dom-pan-zoom.umd.js?v=0.1.0"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,20 +28,17 @@
           <div class="demo__description">
             This demo has the option <code>bounds</code> disabled to showcase most available methods.
           </div>
-          <!--
-            TODO disable precition stuff by default, store setting in localstorage
-          -->
         </div>
         <div class="dompanzoom__wrapper">
           <div class="dompanzoom__container">
             <img
               class="dompanzoom__image"
-              src="../../assets/demo/img/img1.jpg"
+              src="./assets/img/img1.jpg"
               alt=""
             />
             <img
               class="dompanzoom__image-overlay"
-              src="../../assets/demo/img/img-overlay.png"
+              src="./assets/img/img-overlay.png"
               alt=""
             />
           </div>
@@ -157,14 +154,13 @@
               ).innerHTML = this.getPanY(true).toFixed(0) + 'px';
             },
             onPan: function (position) {
-              // TODO show event triggers
               console.log('Panning...', position);
             },
             onZoom: function (position) {
-              // TODO show event triggers
               console.log('Zooming...', position);
             }
           });
+          console.log(myPanZoom);
         </script>
       </div>
     </div>
