@@ -3,12 +3,23 @@
   "description": "A lightweight library providing mobile friendly panning and zooming to any HTML DOM element.",
   "version": "0.1.4",
   "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pan",
+    "zoom",
+    "pan-zoom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephanwagner/dom-pan-zoom.git"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
     }
   },
   "files": [
